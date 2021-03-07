@@ -15,3 +15,24 @@ blur<br />
 
 3. JavaScript<br />
 change blur value, and the numbers<br />
+
+
+# Takeaway from the instructor
+
+1. HTML<br />
+n/a<br />
+
+2. CSS<br />
+-bg-img<br />
+  size: cover<br />
+  Position: absolute<br />
+  + to fix white edge when blurry top & left: -30px, width & height: calc(100 vx/vh+ 60px)<br />
+
+3.JavaScript<br />
+every thing is in 1 function<br />
+
+const scale = (num, in-min, in-max, out-min, out-max) => {<br />
+return (num - in-min) * (out-max - out-min) / (in-max - in-min) + out-min;<br />
+}<br />
+from stackoverflow post: map a range of numbers to another range of numbers
+
